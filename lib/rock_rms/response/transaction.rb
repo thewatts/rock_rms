@@ -14,7 +14,8 @@ module RockRMS
         details: 'TransactionDetails',
         payment_details: 'FinancialPaymentDetail',
         payment_detail_id: 'FinancialPaymentDetailId',
-        transaction_type_id: 'TransactionTypeValueId'
+        transaction_type_id: 'TransactionTypeValueId',
+        created_by_person_alias_id: 'CreatedByPersonAliasId'
       }.merge(TIMESTAMPS).freeze
 
 

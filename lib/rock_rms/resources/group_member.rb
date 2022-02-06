@@ -1,6 +1,11 @@
 module RockRMS
   class Client
     module GroupMember
+      def list_group_members(options = {})
+        res = get(group_member_path, options)
+        Response::GroupMember.format(res)
+      end
+
       def create_group_member(group_id:,
                               group_member_status:,
                               group_role_id:,

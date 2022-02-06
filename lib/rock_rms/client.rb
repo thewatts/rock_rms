@@ -21,11 +21,13 @@ module RockRMS
     include RockRMS::Client::DefinedValue
     include RockRMS::Client::Gateway
     include RockRMS::Client::Group
+    include RockRMS::Client::GroupLocation
     include RockRMS::Client::GroupMember
     include RockRMS::Client::History
     include RockRMS::Client::Page
     include RockRMS::Client::PaymentDetail
     include RockRMS::Client::Person
+    include RockRMS::Client::PersonAlias
     include RockRMS::Client::PhoneNumber
     include RockRMS::Client::RecurringDonation
     include RockRMS::Client::RecurringDonationDetail

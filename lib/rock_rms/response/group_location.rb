@@ -5,6 +5,7 @@ module RockRMS
         id: 'Id',
         group_id: 'GroupId',
         location_id: 'LocationId',
+        group_location_type_value_id: 'GroupLocationTypeValueId',
         guid: 'Guid'
       }.merge(TIMESTAMPS).freeze
 

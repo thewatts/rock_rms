@@ -8,7 +8,8 @@ module RockRMS
         fund_id: 'AccountId',
         amount: 'Amount',
         entity_type_id: 'EntityTypeId',
-        entity_id: 'EntityId'
+        entity_id: 'EntityId',
+        transaction_id: 'TransactionId',
       }.merge(TIMESTAMPS).freeze
 
       def format_single(response)
